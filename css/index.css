@@ -17,7 +17,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 30px;
 }
 
 nav {
@@ -61,7 +61,7 @@ a {
     border-radius: 30px;
     width: 100%;
     color: #010B40;
-    background-color: #dddddd;
+    background-color: #eeeeee;
     position: relative;
 }
 
@@ -101,51 +101,50 @@ a {
     width: 400px;
     height: auto;
     bottom: 0;
-    left: -21px;
+    left: -31px;
 }
 
 .sec-uiux {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-column-gap: 10px;
-    justify-content: space-between;
+    grid-template-columns: repeat(2,45%);
+    grid-row-gap: 30px;
+    justify-content: space-around;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     border-radius: 30px;
     background-color: #dddddd;
 }
 
-.footer {
+footer {
     background-color: #262626;
     height: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    margin-top: 30px;
 }
 
 .project {
     position: relative;
-    background-color: #dddddd;
+    background-color: #eeeeee;
     flex-basis: auto;
     height: 405px;
     justify-content: center;
-    border: 1px solid #898989;
-    border-radius: 30px;
+    border-left: 5px solid #ffa339;
     transition: 0.5s;
-    box-shadow: 5px 5px 5px #838383;
 }
 
 .front {
+    display: flex;
     position: absolute;
     bottom: 0;
     height: 95%;
-    background-color: #fec416;
     border-radius: 30px;
 }
 
 
 .img-container {
-    padding: 15px;
+    padding: 0;
     border-radius: 30px;
     height: 60%;
 }
@@ -175,16 +174,20 @@ a {
     height: 100%;
     object-fit: cover;
     transition: 0.3s;
-    border-radius: 30px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #4b4b4b;
 }
 
 
 
 .sec-title {
-    padding-top: 20px;
+    margin-top: 40px;
     font-size: 40px;
     color: #010B40;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
     text-shadow: 2px 2px #F26241;
 }
