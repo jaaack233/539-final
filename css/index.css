@@ -110,7 +110,7 @@ a {
     grid-row-gap: 30px;
     justify-content: space-around;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
+    padding: 20px 5%;
     border-radius: 30px;
     background-color: #dddddd;
 }
@@ -126,7 +126,7 @@ footer {
 
 .project {
     position: relative;
-    background-color: #eeeeee;
+    background-color: #f2f2f2;
     flex-basis: auto;
     height: 405px;
     justify-content: center;
