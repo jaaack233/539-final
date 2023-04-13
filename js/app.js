@@ -17,13 +17,18 @@ window.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
         intro.classList.remove("init");
         main.classList.remove("init");
-        h1.classList.remove("init");
-        h2.classList.remove("init");
-        p.classList.remove("init");
     } else {
         intro.classList.add("init");
         main.classList.add("init");
         nav.classList.add("init");
+       
+    }
+
+    if (window.scrollY > 100){
+        h1.classList.remove("init");
+        h2.classList.remove("init");
+        p.classList.remove("init");
+    } else {
         h1.classList.add("init");
         h2.classList.add("init");
         p.classList.add("init");
