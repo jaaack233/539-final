@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #dddddd;
+    background-color: #F0F1F3;
 
 }
 
@@ -231,7 +231,7 @@ path {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px 5%;
     border-radius: 30px;
-    background-color: #dddddd;
+    background-color: #F0F1F3;
 }
 
 footer {
@@ -245,12 +245,19 @@ footer {
 
 .project {
     position: relative;
-    background-color: #f2f2f2;
+    background-color: #d3ddf0;
     flex-basis: auto;
     height: 405px;
     justify-content: center;
-    border-left: 5px solid #ffa339;
+    border-radius: 20px;
     transition: 0.5s;
+}
+
+.p-intro {
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .front {
@@ -275,6 +282,8 @@ footer {
 }
 
 .project h1{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     text-align: left;
     padding-left: 10px;
@@ -293,6 +302,7 @@ footer {
     height: 100%;
     object-fit: cover;
     transition: 0.3s;
+    border-radius: 20px 20px 0 0;
 }
 
 .project:hover {
@@ -352,9 +362,9 @@ footer {
 
     .p-intro {
         padding: 0;
-        width: 95%;
         text-align: center;
         margin-top: 10px;
+        margin-left: 20px;
     }
 
     #venmo {
