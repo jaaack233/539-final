@@ -282,11 +282,13 @@ footer {
 
 
 .project p{
+    color: black;
     padding-left: 10px;
     font-size: 18px;
 }
 
 .project h1{
+    font-size: 40px;
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
@@ -296,6 +298,7 @@ footer {
 }
 
 .project h3{
+    font-size: 28px;
     padding-left: 10px;
     font-weight: 500;
     color: rgb(255, 111, 0);
